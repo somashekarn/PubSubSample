@@ -1,0 +1,4631 @@
+{
+  "attribute_types": {
+    "entity_source": {
+      "label": "EntitySource",
+      "fields": {
+        "end_date": {
+          "indexed": true,
+          "description": "",
+          "label": "EndDate"
+        },
+        "record_start": {
+          "indexed": false,
+          "description": "",
+          "label": "Record Start Date",
+          "classification": ""
+        },
+        "source_ident_value": {
+          "indexed": true,
+          "description": "",
+          "label": "SourceIdentValue"
+        },
+        "entity_source_assoc_id": {
+          "indexed": true,
+          "description": "",
+          "label": "EntitySourceAssocId"
+        },
+        "source_ident_type": {
+          "indexed": true,
+          "description": "",
+          "label": "SourceIdentType"
+        },
+        "create_date": {
+          "indexed": true,
+          "description": "",
+          "label": "CreateDate"
+        },
+        "record_end": {
+          "indexed": false,
+          "description": "",
+          "label": "Record End Date",
+          "classification": ""
+        },
+        "start_date": {
+          "indexed": true,
+          "description": "",
+          "label": "StartDate"
+        }
+      }
+    },
+    "contract_role_location_purpose": {
+      "label": "Contract Role Location Purpose",
+      "fields": {
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "purpose_type": {
+          "indexed": false,
+          "label": "Purpose Type"
+        },
+        "purpose_value": {
+          "indexed": true,
+          "label": "Purpose Value"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        },
+        "contract_role_location_purpose_description": {
+          "indexed": true,
+          "label": "Contract Role Location Purpose Description"
+        }
+      }
+    },
+    "admin_native_key": {
+      "label": "Admin Native Key",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "admin_field_name_value": {
+          "indexed": true,
+          "label": "Admin Field Name Value"
+        },
+        "contract_component_indicator": {
+          "indexed": true,
+          "label": "Contract Component?"
+        },
+        "datatype_name": {
+          "indexed": true,
+          "label": "Data Type Name"
+        },
+        "admin_system_value": {
+          "indexed": true,
+          "label": "Admin System Value"
+        },
+        "contract_id": {
+          "indexed": false,
+          "label": "Contract ID"
+        },
+        "present_sequence_number": {
+          "indexed": true,
+          "label": "Present Sequence Number"
+        },
+        "admin_contract_id": {
+          "indexed": false,
+          "label": "Admin Contract ID"
+        },
+        "native_key_total": {
+          "indexed": true,
+          "label": "Native Key Total"
+        },
+        "admin_system_type": {
+          "indexed": false,
+          "label": "Admin System Type"
+        },
+        "admin_field_name_type": {
+          "indexed": false,
+          "label": "Admin Field Name Type"
+        },
+        "size_number": {
+          "indexed": true,
+          "label": "Size Number"
+        }
+      }
+    },
+    "processing_activity": {
+      "label": "Processing Activity",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "activity_value": {
+          "indexed": true,
+          "label": "Activity Value"
+        },
+        "activity_type": {
+          "indexed": false,
+          "label": "Activity Type"
+        },
+        "description": {
+          "indexed": true,
+          "label": "Description"
+        },
+        "url": {
+          "indexed": true,
+          "label": "URL"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "string": {
+      "description": "A single field primitive attribute",
+      "label": "Simple attribute",
+      "classification": "",
+      "fields": {
+        "value": {
+          "indexed": true,
+          "description": "",
+          "label": "Value",
+          "classification": ""
+        }
+      }
+    },
+    "contract_party_role_identifier": {
+      "label": "Contract Party Role Identifier",
+      "fields": {
+        "expiry_date": {
+          "indexed": true,
+          "label": "ExpiryDate"
+        },
+        "identifier_id": {
+          "indexed": true,
+          "label": "IdentifierId"
+        },
+        "description": {
+          "indexed": true,
+          "label": "Description"
+        }
+      }
+    },
+    "contract_component_val": {
+      "label": "Contract Component Value Data",
+      "fields": {
+        "domain_value_value": {
+          "indexed": true,
+          "label": "Domain Value Value"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "domain_type": {
+          "indexed": false,
+          "label": "Domain Type"
+        },
+        "domain_value": {
+          "indexed": true,
+          "label": "Domain Value"
+        },
+        "domain_value_type": {
+          "indexed": false,
+          "label": "Domain Value Type"
+        },
+        "value": {
+          "indexed": true,
+          "label": "Value"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        },
+        "contract_component_id": {
+          "indexed": false,
+          "label": "Contract Component ID"
+        }
+      }
+    },
+    "misc_value": {
+      "label": "Misc Value",
+      "fields": {
+        "misc_value_priority_value": {
+          "indexed": true,
+          "label": "Misc Value Priority Value"
+        },
+        "attribute0_type": {
+          "indexed": true,
+          "label": "Attribute0 Type"
+        },
+        "attribute5_value": {
+          "indexed": true,
+          "label": "Attribute5 Value"
+        },
+        "attribute3_type": {
+          "indexed": true,
+          "label": "Attribute3 Type"
+        },
+        "attribute3_value": {
+          "indexed": true,
+          "label": "Attribute3 Value"
+        },
+        "attribute8_value": {
+          "indexed": true,
+          "label": "Attribute8 Value"
+        },
+        "category_value": {
+          "indexed": true,
+          "label": "Contract Value Category Value"
+        },
+        "misc_value_source_identifier_value": {
+          "indexed": true,
+          "label": "Misc Value Source Identifier Value"
+        },
+        "attribute7_value": {
+          "indexed": true,
+          "label": "Attribute7 Value"
+        },
+        "attribute8_type": {
+          "indexed": true,
+          "label": "Attribute8 Type"
+        },
+        "attribute2_value": {
+          "indexed": true,
+          "label": "Attribute2 Value"
+        },
+        "attribute0_value": {
+          "indexed": true,
+          "label": "Attribute0 Value"
+        },
+        "misc_value_string": {
+          "indexed": true,
+          "label": "Misc Value String"
+        },
+        "attribute4_type": {
+          "indexed": true,
+          "label": "Attribute4 Type"
+        },
+        "attribute1_type": {
+          "indexed": true,
+          "label": "Attribute1 Type"
+        },
+        "attribute6_string": {
+          "indexed": true,
+          "label": "Attribute6 String"
+        },
+        "misc_value_description": {
+          "indexed": true,
+          "label": "Misc Value Description"
+        },
+        "attribute7_string": {
+          "indexed": true,
+          "label": "Attribute7 String"
+        },
+        "attribute4_value": {
+          "indexed": true,
+          "label": "Attribute4 Value"
+        },
+        "attribute5_string": {
+          "indexed": true,
+          "label": "Attribute5 String"
+        },
+        "attribute7_type": {
+          "indexed": true,
+          "label": "Attribute7 Type"
+        },
+        "misc_value_type": {
+          "indexed": true,
+          "label": "Misc Value Type"
+        },
+        "misc_value_priority_type": {
+          "indexed": true,
+          "label": "Misc Value Priority Type"
+        },
+        "attribute9_value": {
+          "indexed": true,
+          "label": "Attribute9 Value"
+        },
+        "misc_value_value": {
+          "indexed": true,
+          "label": "Misc Value Type Value"
+        },
+        "category_type": {
+          "indexed": true,
+          "label": "Contract Value Category Type"
+        },
+        "attribute9_string": {
+          "indexed": true,
+          "label": "Attribute9 String"
+        },
+        "attribute1_string": {
+          "indexed": true,
+          "label": "Attribute1 String"
+        },
+        "attribute2_string": {
+          "indexed": true,
+          "label": "Attribute2 String"
+        },
+        "attribute3_string": {
+          "indexed": true,
+          "label": "Attribute3 String"
+        },
+        "attribute4_string": {
+          "indexed": true,
+          "label": "Attribute4 String"
+        },
+        "attribute2_type": {
+          "indexed": true,
+          "label": "Attribute2 Type"
+        },
+        "attribute8_string": {
+          "indexed": true,
+          "label": "Attribute8 String"
+        },
+        "attribute5_type": {
+          "indexed": true,
+          "label": "Attribute5 Type"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "attribute1_value": {
+          "indexed": true,
+          "label": "Attribute1 Value"
+        },
+        "misc_value_source_identifier_type": {
+          "indexed": true,
+          "label": "Misc Value Source Identifier Type"
+        },
+        "attribute0_string": {
+          "indexed": true,
+          "label": "Attribute0 String"
+        },
+        "attribute6_value": {
+          "indexed": true,
+          "label": "Attribute6 Value"
+        },
+        "attribute6_type": {
+          "indexed": true,
+          "label": "Attribute6 Type"
+        },
+        "attribute9_type": {
+          "indexed": true,
+          "label": "Attribute9 Type"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "identification": {
+      "matching_types": [
+        "NATIONALIDENTIFIER",
+        "PAYMENTCARDNUMBER",
+        "OTHERIDENTIFIER"
+      ],
+      "description": "A unique identifier that can be used to distinguish a party from others.",
+      "label": "Identification",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "identification_number": {
+          "indexed": true,
+          "description": "The actual alphanumeric identifier. For example, if the identification type indicates a social security number, then this value contains the 9 characters of the social security number.",
+          "label": "Identification number",
+          "classification": ""
+        },
+        "status_type": {
+          "indexed": false,
+          "label": "Status Type"
+        },
+        "status_value": {
+          "indexed": true,
+          "label": "Status Value"
+        },
+        "expiry_date": {
+          "indexed": true,
+          "label": "Expiry Date"
+        },
+        "identification_type": {
+          "indexed": false,
+          "label": "Identification Type"
+        },
+        "description": {
+          "indexed": true,
+          "label": "Description"
+        },
+        "identification_value": {
+          "indexed": true,
+          "label": "Identification Value"
+        },
+        "issue_location": {
+          "indexed": true,
+          "label": "Issue Location"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "payroll_deduction": {
+      "label": "Payroll Deduction",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "payroll_number": {
+          "indexed": true,
+          "label": "Payroll Number"
+        },
+        "description": {
+          "indexed": true,
+          "label": "Description"
+        },
+        "employer_name": {
+          "indexed": true,
+          "label": "Employer Name"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "alert": {
+      "label": "Alert",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "severity_type": {
+          "indexed": false,
+          "label": "Severity Type"
+        },
+        "severity_value": {
+          "indexed": true,
+          "label": "Severity Value"
+        },
+        "description": {
+          "indexed": true,
+          "label": "Description"
+        },
+        "category_type": {
+          "indexed": false,
+          "label": "Category Type"
+        },
+        "alert_value": {
+          "indexed": true,
+          "label": "Alert Value"
+        },
+        "category_value": {
+          "indexed": true,
+          "label": "Category Value"
+        },
+        "alert_type": {
+          "indexed": false,
+          "label": "Alert Type"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "email": {
+      "matching_types": [
+        "EMAIL"
+      ],
+      "description": "Indicates that this attribute is an email address. Create attributes of this type for each category of email address, such as personal or business.",
+      "label": "Email",
+      "classification": "",
+      "fields": {
+        "email_id": {
+          "indexed": true,
+          "description": "A string containing the email address value.",
+          "label": "Email address",
+          "classification": ""
+        },
+        "comments": {
+          "indexed": true,
+          "label": "Comments"
+        },
+        "undelivered_reason_value": {
+          "indexed": true,
+          "label": "Undelivered Reason Value"
+        },
+        "status_type": {
+          "indexed": false,
+          "label": "Status Type"
+        },
+        "status_value": {
+          "indexed": true,
+          "label": "Status Value"
+        },
+        "solicitation_indicator": {
+          "indexed": true,
+          "label": "Solicitation Allowed?"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "usage_type": {
+          "indexed": false,
+          "label": "Usage Type"
+        },
+        "text_only_indicator": {
+          "indexed": true,
+          "label": "Prefer Text Contact Only?"
+        },
+        "contact_method_type": {
+          "indexed": false,
+          "label": "Contact Method Type"
+        },
+        "undelivered_reason_type": {
+          "indexed": false,
+          "label": "Undelivered Reason Type"
+        },
+        "contact_method_value": {
+          "indexed": true,
+          "label": "Contact Method Value"
+        },
+        "usage_value": {
+          "indexed": true,
+          "label": "Usage Value"
+        },
+        "preferred": {
+          "indexed": true,
+          "label": "Preferred Contact Method"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "bank_account": {
+      "label": "Bank Account",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "account_number": {
+          "indexed": true,
+          "label": "Account Number"
+        },
+        "depositor_name": {
+          "indexed": true,
+          "label": "Depositer Name"
+        },
+        "account_type": {
+          "indexed": false,
+          "label": "Account Type"
+        },
+        "branch_number": {
+          "indexed": true,
+          "label": "Branch Number"
+        },
+        "bank_number": {
+          "indexed": true,
+          "label": "Bank Number"
+        },
+        "account_value": {
+          "indexed": true,
+          "label": "Account Value"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "entity_association": {
+      "label": "EntityAssociation",
+      "fields": {
+        "end_date": {
+          "indexed": true,
+          "description": "",
+          "label": "EndDate"
+        },
+        "entity_name_mdm_owned": {
+          "indexed": true,
+          "description": "",
+          "label": "EntityNameMdmOwned"
+        },
+        "entity_name_type": {
+          "indexed": true,
+          "description": "",
+          "label": "EntityNameType"
+        },
+        "consent_entity_assoc_id": {
+          "indexed": true,
+          "description": "",
+          "label": "ConsentEntityAssocId"
+        },
+        "entity_instance_p_k": {
+          "indexed": true,
+          "description": "",
+          "label": "EntityInstancePK"
+        },
+        "record_start": {
+          "indexed": false,
+          "description": "",
+          "label": "Record Start Date",
+          "classification": ""
+        },
+        "entity_attribute_name": {
+          "indexed": true,
+          "description": "",
+          "label": "EntityAttributeName"
+        },
+        "entity_attribute_value": {
+          "indexed": true,
+          "description": "",
+          "label": "EntityAttributeValue"
+        },
+        "entity_name_value": {
+          "indexed": true,
+          "description": "",
+          "label": "EntityNameValue"
+        },
+        "create_date": {
+          "indexed": true,
+          "description": "",
+          "label": "CreateDate"
+        },
+        "record_end": {
+          "indexed": false,
+          "description": "",
+          "label": "Record End Date",
+          "classification": ""
+        },
+        "start_date": {
+          "indexed": true,
+          "description": "",
+          "label": "StartDate"
+        },
+        "include_exclude_flag": {
+          "indexed": true,
+          "description": "",
+          "label": "IncludeExcludeFlag"
+        }
+      }
+    },
+    "address": {
+      "matching_types": [
+        "ADDRESS"
+      ],
+      "description": "The address locations associated with a record. Only one address per usage value is allowed. For example, there can only be one mailing address for a contact.",
+      "label": "Address",
+      "classification": "",
+      "fields": {
+        "longitude_degrees": {
+          "indexed": true,
+          "description": "The longitude of this address.",
+          "label": "Longitude degrees",
+          "classification": ""
+        },
+        "care_of": {
+          "indexed": true,
+          "label": "Care Of"
+        },
+        "country": {
+          "indexed": true,
+          "description": "The country of this address.",
+          "label": "Country value",
+          "classification": ""
+        },
+        "latitude_degrees": {
+          "indexed": true,
+          "description": "The latitude of this address.",
+          "label": "Latitude degrees",
+          "classification": ""
+        },
+        "city": {
+          "indexed": true,
+          "description": "The city of this address.",
+          "label": "City",
+          "classification": ""
+        },
+        "residence_type": {
+          "indexed": false,
+          "label": "Residence Type"
+        },
+        "county": {
+          "indexed": true,
+          "description": "The county of this address.",
+          "label": "County",
+          "classification": ""
+        },
+        "residence_number": {
+          "indexed": true,
+          "description": "The residence number of this address.",
+          "label": "Residence Number",
+          "classification": ""
+        },
+        "country_type": {
+          "indexed": false,
+          "label": "Country or Region Type"
+        },
+        "address_line3": {
+          "indexed": true,
+          "description": "The third line of this address.",
+          "label": "Address Line 3",
+          "classification": ""
+        },
+        "address_line2": {
+          "indexed": true,
+          "description": "The second line of this address.",
+          "label": "Address line 2",
+          "classification": ""
+        },
+        "usage_type": {
+          "indexed": false,
+          "label": "Usage Type"
+        },
+        "address_line1": {
+          "indexed": true,
+          "description": "The first line of this address.",
+          "label": "Address line 1",
+          "classification": ""
+        },
+        "province_state_type": {
+          "indexed": false,
+          "label": "Province/State Type"
+        },
+        "undelivered_reason_type": {
+          "indexed": false,
+          "label": "Undelivered Reason Type"
+        },
+        "residence": {
+          "indexed": true,
+          "description": "The type of residence for this address, such as home, apartment, or suite.",
+          "label": "Residence value",
+          "classification": ""
+        },
+        "preferred": {
+          "indexed": true,
+          "label": "Address Preferred"
+        },
+        "undelivered_reason_value": {
+          "indexed": true,
+          "label": "Undelivered Reason Value"
+        },
+        "zip_postal_code": {
+          "indexed": true,
+          "description": "The postal code of this address.",
+          "label": "Postal code",
+          "classification": ""
+        },
+        "province_state": {
+          "indexed": true,
+          "description": "The state or province of this address.",
+          "label": "State/Province Value",
+          "classification": ""
+        },
+        "solicitation_indicator": {
+          "indexed": true,
+          "label": "Solicitation Allowed?"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "standard_formating_indicator": {
+          "indexed": true,
+          "description": "Standard Formating Indicator of this address.",
+          "label": "Standard Formating Indicator"
+        },
+        "usage_value": {
+          "indexed": true,
+          "label": "Usage Value"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "charge_card": {
+      "label": "Charge Card",
+      "fields": {
+        "card_value": {
+          "indexed": true,
+          "label": "Card Value"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "bank_number": {
+          "indexed": true,
+          "label": "Bank Number"
+        },
+        "card_expiry_date": {
+          "indexed": true,
+          "label": "Card Expiry Date"
+        },
+        "card_number": {
+          "indexed": true,
+          "label": "Card Number"
+        },
+        "on_card_name": {
+          "indexed": true,
+          "label": "Name on Card"
+        },
+        "card_type": {
+          "indexed": false,
+          "label": "Card Type"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "income_source": {
+      "label": "Income Source",
+      "fields": {
+        "information_obtained_date": {
+          "indexed": true,
+          "label": "Information Obtained Date"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "income_source_value": {
+          "indexed": true,
+          "label": "Income Source Value"
+        },
+        "investment_experience_years": {
+          "indexed": true,
+          "label": "Investment Experience Years"
+        },
+        "currency_type": {
+          "indexed": false,
+          "label": "Currency Type"
+        },
+        "income_source_type": {
+          "indexed": false,
+          "label": "Income Source Type"
+        },
+        "currency_value": {
+          "indexed": true,
+          "label": "Currency Value"
+        },
+        "description": {
+          "indexed": true,
+          "label": "Description"
+        },
+        "annual_amount": {
+          "indexed": true,
+          "label": "Annual Amount"
+        }
+      }
+    },
+    "person_name": {
+      "matching_types": [
+        "PERSONNAME"
+      ],
+      "description": "Information about a name associated with a person record.",
+      "label": "Person Name",
+      "classification": "",
+      "fields": {
+        "generation": {
+          "indexed": true,
+          "description": "Identifies familial generational information in the form of a generation type. Examples include The First, The Second, Junior or Senior.",
+          "label": "Generation value",
+          "classification": ""
+        },
+        "prefix": {
+          "indexed": true,
+          "description": "The name prefix, such as Mr, Mrs, Miss, Dr, and others.",
+          "label": "Prefix value",
+          "classification": ""
+        },
+        "last_name": {
+          "indexed": true,
+          "description": "The surname or family name of a person. Commonly known as the last name.",
+          "label": "Last name",
+          "classification": ""
+        },
+        "given_name": {
+          "indexed": true,
+          "description": "The first given name of a person. Commonly known as the first name.",
+          "label": "Given name",
+          "classification": ""
+        },
+        "middle_name": {
+          "indexed": true,
+          "description": "The second given name of a person. Commonly known as the middle name.",
+          "label": "Middle name",
+          "classification": ""
+        },
+        "suffix": {
+          "indexed": true,
+          "description": "The name suffix, such as Jr, MD, Esq, PhD, and others.",
+          "label": "Suffix",
+          "classification": ""
+        },
+        "given_name3": {
+          "indexed": true,
+          "label": "Given Name 3"
+        },
+        "given_name4": {
+          "indexed": true,
+          "label": "Given Name 4"
+        },
+        "generation_type": {
+          "indexed": false,
+          "label": "Generation Type"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "usage_type": {
+          "indexed": false,
+          "label": "Usage Type"
+        },
+        "prefix_type": {
+          "indexed": false,
+          "label": "Prefix Type"
+        },
+        "prefix_description": {
+          "indexed": true,
+          "label": "Prefix Description"
+        },
+        "usage_value": {
+          "indexed": true,
+          "label": "Usage Value"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "telephone": {
+      "matching_types": [
+        "PHONE"
+      ],
+      "description": "Indicates that this attribute is a telephone number. Create attributes of this type for each category of telephone number, such as mobile, home, or business.",
+      "label": "Telephone",
+      "classification": "",
+      "fields": {
+        "comments": {
+          "indexed": true,
+          "label": "Comments"
+        },
+        "phone_country_code": {
+          "indexed": true,
+          "description": "Phone Number Country Code",
+          "label": "Phone Number Country Code"
+        },
+        "undelivered_reason_value": {
+          "indexed": true,
+          "label": "Undelivered Reason Value"
+        },
+        "status_type": {
+          "indexed": false,
+          "label": "Status Type"
+        },
+        "status_value": {
+          "indexed": true,
+          "label": "Status Value"
+        },
+        "solicitation_indicator": {
+          "indexed": true,
+          "label": "Solicitation Allowed?"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "phone_exchange": {
+          "indexed": true,
+          "description": "Phone Number Exchange",
+          "label": "Phone Number Exchange"
+        },
+        "usage_type": {
+          "indexed": false,
+          "label": "Usage Type"
+        },
+        "base_phone_number": {
+          "indexed": true,
+          "description": "A string containing the standardizing digits for this telephone number.",
+          "label": "Base Phone number"
+        },
+        "text_only_indicator": {
+          "indexed": true,
+          "label": "Prefer Text Contact Only?"
+        },
+        "contact_method_type": {
+          "indexed": false,
+          "label": "Contact Method Type"
+        },
+        "phone_number": {
+          "indexed": true,
+          "description": "A string containing the digits for this telephone number.",
+          "label": "Phone number",
+          "classification": ""
+        },
+        "undelivered_reason_type": {
+          "indexed": false,
+          "label": "Undelivered Reason Type"
+        },
+        "contact_method_value": {
+          "indexed": true,
+          "label": "Contact Method Value"
+        },
+        "usage_value": {
+          "indexed": true,
+          "label": "Usage Value"
+        },
+        "phone_extension": {
+          "indexed": true,
+          "description": "Phone Number Extension",
+          "label": "Phone Number Extension"
+        },
+        "preferred": {
+          "indexed": true,
+          "label": "Preferred Contact Method"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        },
+        "phone_area_code": {
+          "indexed": true,
+          "description": "Phone Number Area Code",
+          "label": "Phone Number Area Code"
+        }
+      }
+    },
+    "organization_name": {
+      "matching_types": [
+        "ORGNAME"
+      ],
+      "description": "Information about a name associated with an organization record.",
+      "label": "Organization Name",
+      "classification": "",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "usage_type": {
+          "indexed": false,
+          "label": "Usage Type"
+        },
+        "name": {
+          "indexed": true,
+          "description": "The organization name.",
+          "label": "Name",
+          "classification": ""
+        },
+        "usage_value": {
+          "indexed": true,
+          "label": "Usage Value"
+        },
+        "preferred": {
+          "indexed": true,
+          "label": "Preferred"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "consent": {
+      "label": "Consent",
+      "fields": {
+        "profile_system_type": {
+          "indexed": false,
+          "label": "Profile System Type"
+        },
+        "provision_type": {
+          "indexed": false,
+          "label": "Provision Type"
+        },
+        "provision_encode": {
+          "indexed": false,
+          "label": "Provision Encode Type"
+        },
+        "language_agreed_in_type": {
+          "indexed": false,
+          "label": "Language Agreed In Type"
+        },
+        "entity_association_type": {
+          "indexed": false,
+          "label": "Entity Association Type"
+        },
+        "end_reason_type": {
+          "indexed": false,
+          "label": "End Reason Type"
+        },
+        "enforcement_type": {
+          "indexed": false,
+          "label": "Enforcement Type"
+        },
+        "tenant_type": {
+          "indexed": false,
+          "label": "Tenant Type"
+        },
+        "entity_association_encode": {
+          "indexed": false,
+          "label": "Entity Association Encoding"
+        },
+        "end_reason_value": {
+          "indexed": true,
+          "label": "End Reason Value"
+        },
+        "provision_content": {
+          "indexed": true,
+          "label": "Provision Encoded Content"
+        },
+        "agree_ind": {
+          "indexed": true,
+          "label": "Agree?"
+        },
+        "tenant_value": {
+          "indexed": true,
+          "label": "Tenant Value"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "consent_owner_id": {
+          "indexed": true,
+          "label": "Consent Owner ID"
+        },
+        "entity_association_content": {
+          "indexed": true,
+          "label": "Entity Association Encoded Content"
+        },
+        "source_ident_value": {
+          "indexed": true,
+          "label": "Source Identifier Value"
+        },
+        "language_agreed_in_value": {
+          "indexed": true,
+          "label": "Language Agreed In Value"
+        },
+        "source_ident_type": {
+          "indexed": false,
+          "label": "Source Identifier Type"
+        },
+        "profile_system_value": {
+          "indexed": true,
+          "label": "Profile System Value"
+        },
+        "create_date": {
+          "indexed": true,
+          "label": "Create Date"
+        },
+        "consent_active_indicator": {
+          "indexed": true,
+          "label": "Is Consent Active?"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "processing_purpose_tenant_association": {
+      "label": "Processing Purpose Tenant Association",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "tenant_type": {
+          "indexed": false,
+          "label": "Tenant Type"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        },
+        "tenant_value": {
+          "indexed": true,
+          "label": "Tenant Value"
+        }
+      }
+    },
+    "line_of_business": {
+      "label": "Line of Business",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "lob_type": {
+          "indexed": false,
+          "label": "Line of Business Type"
+        },
+        "role_type": {
+          "indexed": false,
+          "label": "Role Type"
+        },
+        "role_value": {
+          "indexed": true,
+          "label": "Role Value"
+        },
+        "lob_value": {
+          "indexed": true,
+          "label": "Line of Business Value"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "regulation": {
+      "label": "Regulation",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "regulation_value": {
+          "indexed": true,
+          "label": "Regulation Value"
+        },
+        "description": {
+          "indexed": true,
+          "label": "Description"
+        },
+        "regulation_type": {
+          "indexed": false,
+          "label": "Regulation Type"
+        },
+        "url": {
+          "indexed": true,
+          "label": "URL"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "provision": {
+      "label": "Provision",
+      "fields": {
+        "provision_type": {
+          "indexed": true,
+          "description": "",
+          "label": "ProvisionType"
+        },
+        "end_date": {
+          "indexed": true,
+          "description": "",
+          "label": "EndDate"
+        },
+        "record_start": {
+          "indexed": false,
+          "description": "",
+          "label": "Record Start Date",
+          "classification": ""
+        },
+        "consent_provision_id": {
+          "indexed": true,
+          "description": "",
+          "label": "ConsentProvisionId"
+        },
+        "cons_prov_value": {
+          "indexed": true,
+          "description": "",
+          "label": "ConsProvValue"
+        },
+        "create_date": {
+          "indexed": true,
+          "description": "",
+          "label": "CreateDate"
+        },
+        "content": {
+          "indexed": true,
+          "description": "",
+          "label": "Content"
+        },
+        "provision_value": {
+          "indexed": true,
+          "description": "",
+          "label": "ProvisionValue"
+        },
+        "record_end": {
+          "indexed": false,
+          "description": "",
+          "label": "Record End Date",
+          "classification": ""
+        },
+        "start_date": {
+          "indexed": true,
+          "description": "",
+          "label": "StartDate"
+        }
+      }
+    },
+    "admin_key": {
+      "label": "Admin System Key",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "system_type": {
+          "indexed": false,
+          "label": "System Type"
+        },
+        "description": {
+          "indexed": true,
+          "label": "Description"
+        },
+        "id": {
+          "indexed": true,
+          "label": "Admin System Key ID"
+        },
+        "system_value": {
+          "indexed": true,
+          "label": "System Value"
+        }
+      }
+    },
+    "macro_role_association": {
+      "label": "Macro Role Assocation",
+      "fields": {
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "instance_pk": {
+          "indexed": true,
+          "label": "Instance Primary Key"
+        },
+        "entity_name": {
+          "indexed": true,
+          "label": "Entity Name"
+        },
+        "end_reason_type": {
+          "indexed": false,
+          "label": "End Reason Type"
+        },
+        "end_reason_value": {
+          "indexed": true,
+          "label": "End Reason Value"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    },
+    "contract_party_role_situation": {
+      "label": "Contract Party Role Situation",
+      "fields": {
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "arrangement_type": {
+          "indexed": false,
+          "label": "Arrangement Type"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        },
+        "arrangement_value": {
+          "indexed": true,
+          "label": "Arrangement Value"
+        }
+      }
+    },
+    "social_media": {
+      "matching_types": [
+        "SOCIALMEDIA"
+      ],
+      "description": "Indicates that this attribute is a social media handle or user name. Create attributes of this type for each social media platform, such as Twitter or Instagram.",
+      "label": "Social media",
+      "classification": "",
+      "fields": {
+        "comments": {
+          "indexed": true,
+          "label": "Comments"
+        },
+        "undelivered_reason_value": {
+          "indexed": true,
+          "label": "Undelivered Reason Value"
+        },
+        "status_type": {
+          "indexed": false,
+          "label": "Status Type"
+        },
+        "status_value": {
+          "indexed": true,
+          "label": "Status Value"
+        },
+        "solicitation_indicator": {
+          "indexed": true,
+          "label": "Solicitation Allowed?"
+        },
+        "record_id": {
+          "indexed": false,
+          "label": "Record ID"
+        },
+        "record_start": {
+          "indexed": false,
+          "label": "Record Start Date"
+        },
+        "social_media_handle": {
+          "indexed": true,
+          "description": "A string containing the handle or user name value.",
+          "label": "Social media handle",
+          "classification": ""
+        },
+        "usage_type": {
+          "indexed": false,
+          "label": "Usage Type"
+        },
+        "text_only_indicator": {
+          "indexed": true,
+          "label": "Prefer Text Contact Only?"
+        },
+        "contact_method_type": {
+          "indexed": false,
+          "label": "Contact Method Type"
+        },
+        "undelivered_reason_type": {
+          "indexed": false,
+          "label": "Undelivered Reason Type"
+        },
+        "contact_method_value": {
+          "indexed": true,
+          "label": "Contact Method Value"
+        },
+        "usage_value": {
+          "indexed": true,
+          "label": "Usage Value"
+        },
+        "preferred": {
+          "indexed": true,
+          "label": "Preferred Contact Method"
+        },
+        "record_end": {
+          "indexed": false,
+          "label": "Record End Date"
+        }
+      }
+    }
+  },
+  "system_properties": {
+    "attribute_types": {
+      "attribute_last_updated": {
+        "settable": false,
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time an attribute was last updated",
+        "label": "Attribute last updated date"
+      }
+    },
+    "entity_types": {
+      "link_last_updated_date": {
+        "settable": false,
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time an entity's member records were last changed",
+        "label": "Entity link last updated date"
+      },
+      "last_updated_user": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "String",
+        "description": "The user by whom an entity's attribute data was last updated",
+        "label": "Entity last updated user"
+      },
+      "entity_last_updated": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time the entity linkages were last updated",
+        "label": "Entity last updated time"
+      },
+      "created_date": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time an entity was created",
+        "label": "Entity created date"
+      },
+      "entity_id": {
+        "indexed": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "",
+        "label": "Entity identifier"
+      },
+      "last_updated_date": {
+        "settable": false,
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time any attribute data on an entity was last modified",
+        "label": "Entity last updated date"
+      }
+    },
+    "relationship_types": {
+      "from_record_id": {
+        "settable": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "The record id this relationship is coming from",
+        "label": "From record id"
+      },
+      "created_user": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "String",
+        "description": "The user by whom a relationship was created",
+        "label": "Created User"
+      },
+      "to_record_id": {
+        "settable": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "The record id this relationship is going to",
+        "label": "To record id"
+      },
+      "relationship_number": {
+        "settable": false,
+        "editable": false,
+        "data_type": "String",
+        "description": "System generated relationship number",
+        "label": "Relationship number"
+      },
+      "to_record_type": {
+        "settable": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "The record type this relationship is going to",
+        "label": "To record type"
+      },
+      "relationship_last_updated": {
+        "settable": false,
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time a relationship was last updated",
+        "label": "Relationship last updated date"
+      },
+      "from_record_type": {
+        "settable": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "The record type this relationship is coming from",
+        "label": "From record type"
+      },
+      "to_record_number": {
+        "settable": false,
+        "editable": false,
+        "data_type": "String",
+        "description": "The record number this relationship is going to",
+        "label": "To record number"
+      },
+      "from_record_number": {
+        "settable": false,
+        "editable": false,
+        "data_type": "String",
+        "description": "The record number this relationship is coming from",
+        "label": "From record number"
+      },
+      "relationship_source": {
+        "settable": true,
+        "indexed": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "User provided relationship source",
+        "label": "Relationship source"
+      },
+      "from_record_source": {
+        "settable": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "The record source this relationship is coming from",
+        "label": "From record source"
+      },
+      "relationship_type": {
+        "settable": true,
+        "indexed": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "Relationship type",
+        "label": "Relationship type"
+      },
+      "to_record_source": {
+        "settable": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "The record source this relationship is going to",
+        "label": "To record source"
+      },
+      "last_updated_user": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "String",
+        "description": "The user by whom a relationship was last updated",
+        "label": "Last updated user"
+      },
+      "relationship_id": {
+        "settable": true,
+        "indexed": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "User provided or auto-generated relationship identifier",
+        "label": "Relationship ID"
+      },
+      "created_date": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time a relationship was created",
+        "label": "Created date"
+      },
+      "last_updated_date": {
+        "settable": false,
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time a relationship was last updated",
+        "label": "Last updated date"
+      }
+    },
+    "version": "v5",
+    "record_types": {
+      "collection_id": {
+        "settable": true,
+        "indexed": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "Optional identifier for identifying a collection of records",
+        "label": "Collection ID"
+      },
+      "record_id": {
+        "settable": true,
+        "indexed": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "User provided or autogenerated record identifier",
+        "label": "Record identifier"
+      },
+      "created_user": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "String",
+        "description": "The user by whom a record was created",
+        "label": "Created User"
+      },
+      "record_last_updated": {
+        "settable": false,
+        "indexed": true,
+        "editable": false,
+        "data_type": "Long",
+        "description": "System generated record last updated",
+        "label": "Record last updated"
+      },
+      "last_updated_user": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "String",
+        "description": "The user by whom a record was last updated",
+        "label": "Last updated user"
+      },
+      "record_number": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "String",
+        "description": "System generated record number",
+        "label": "System record number"
+      },
+      "created_date": {
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time a record was created",
+        "label": "Created date"
+      },
+      "last_updated_date": {
+        "settable": false,
+        "indexed": false,
+        "editable": false,
+        "data_type": "Long",
+        "description": "The time a record was last updated",
+        "label": "Last updated date"
+      },
+      "record_source": {
+        "settable": true,
+        "indexed": true,
+        "editable": false,
+        "data_type": "String",
+        "description": "User provided record source",
+        "label": "Record source"
+      }
+    }
+  },
+  "relationship_types": {
+    "preference_link": {
+      "directional": true,
+      "description": "Preference Link",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "person",
+              "organization",
+              "contract"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "preference"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Preference Link",
+      "cardinality": "ONE2MANY"
+    },
+    "contract_party_role_component_link": {
+      "directional": true,
+      "description": "Contract Party Role Component Link",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "contract_component"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "contract_party_role"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Contract Party Role Component Link",
+      "cardinality": "ONE2MANY"
+    },
+    "contract_role_location_link": {
+      "directional": true,
+      "description": "Contract Role Location Link",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "contract_party_role"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "contract_role_location"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Contract Role Location Link",
+      "cardinality": "ONE2MANY"
+    },
+    "billing_summary_link": {
+      "directional": true,
+      "description": "Billing Summary Link",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "contract",
+              "contract_component"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "billing_summary"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Billing Summary Link",
+      "cardinality": "ONE2MANY"
+    },
+    "interaction_relationship": {
+      "directional": true,
+      "description": "Interaction Relationship",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "interaction"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "interaction"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "relationship_value": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Relationship Value"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Interaction Relationship",
+      "cardinality": "ONE2MANY"
+    },
+    "linkage": {
+      "internal": true,
+      "label_from_source": "Linked into",
+      "label_from_target": "Linked from",
+      "directional": true,
+      "description": "This is the built in linkage relationship type the matching engine creates between records and their resolved entities",
+      "label": "Linkage",
+      "cardinality": "ONE2MANY"
+    },
+    "interaction_link": {
+      "directional": true,
+      "description": "Interaction Link",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "person",
+              "organization"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "interaction"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Interaction Link",
+      "cardinality": "ONE2MANY"
+    },
+    "contract_relationship": {
+      "directional": true,
+      "description": "Contract Relationship",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "contract"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "contract"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "relationship_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Relationship Value"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "relationship_status_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Relationship Status Value"
+        },
+        "relationship_status_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Relationship Status Type"
+        },
+        "relationship_description": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Relationship Description"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Contract Relationship",
+      "cardinality": "ONE2ONE"
+    },
+    "preference_association": {
+      "directional": true,
+      "description": "Preference Association",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "preference"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "person",
+              "organization",
+              "contract"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Preference Association",
+      "cardinality": "ONE2MANY"
+    },
+    "consent_giver_relationship": {
+      "directional": true,
+      "description": "Consent Giver Relationship",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "person"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "person"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "consent_giver_relationship_id": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Consent Giver Relationship ID",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Consent Giver Relationship",
+      "cardinality": "ONE2ONE"
+    },
+    "contract_component_link": {
+      "directional": true,
+      "description": "Contract Component Link",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "contract"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "contract_component"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Contract Component Link",
+      "cardinality": "ONE2ONE"
+    },
+    "party_relationship": {
+      "directional": true,
+      "description": "Party Relationship",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "person",
+              "organization"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "person",
+              "organization"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "relationship_value": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Relationship Value"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "end_reason_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "End Reason Type"
+        },
+        "description": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Description"
+        },
+        "end_reason_value": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "End Reason Value"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Party Relationship",
+      "cardinality": "ONE2MANY"
+    },
+    "contract_party_role_relationship": {
+      "directional": true,
+      "description": "Contract Party Role Relationship",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "contract_party_role"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "contract_party_role"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "role_relationship_end_reason_type": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Role Relationship End Reason Type",
+          "cardinality": "LIST"
+        },
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "role_relationship_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Role Relationship Value",
+          "cardinality": "LIST"
+        },
+        "role_relationship_to_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Role Relationship To Value",
+          "cardinality": "LIST"
+        },
+        "role_relationship_from_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Role Relationship From Value",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "role_relationship_description": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Role Relationship Description",
+          "cardinality": "LIST"
+        },
+        "role_relationship_end_reason_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Role Relationship End Reason Value",
+          "cardinality": "LIST"
+        },
+        "role_relationship_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Role Relationship Type",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Contract Party Role Relationship",
+      "cardinality": "ONE2ONE"
+    },
+    "macro_role_link": {
+      "directional": true,
+      "description": "Macro Role Link",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "person",
+              "organization"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "macro_role"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Macro Role Link",
+      "cardinality": "ONE2MANY"
+    },
+    "contract_party_role_party_link": {
+      "directional": true,
+      "description": "Contract Party Role Party Link",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "person",
+              "organization"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "contract_party_role"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Contract Party Role Party Link",
+      "cardinality": "ONE2MANY"
+    },
+    "consent_process_purpose_link": {
+      "directional": true,
+      "description": "Consent Processing Purpose Link",
+      "rules": [
+        {
+          "source": {
+            "record_types": [
+              "person"
+            ]
+          },
+          "target": {
+            "record_types": [
+              "process_purpose"
+            ]
+          }
+        }
+      ],
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Consent Processing Purpose Link",
+      "cardinality": "ONE2ONE"
+    }
+  },
+  "locale": "en_us",
+  "record_types": {
+    "macro_role": {
+      "description": "Macro Role",
+      "attributes": {
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "usage_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Usage Type",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "description": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Description",
+          "cardinality": "LIST"
+        },
+        "end_reason_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "End Reason Type",
+          "cardinality": "LIST"
+        },
+        "category_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Category Type",
+          "cardinality": "LIST"
+        },
+        "usage_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Usage Value",
+          "cardinality": "LIST"
+        },
+        "end_reason_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "End Reason Value",
+          "cardinality": "LIST"
+        },
+        "category_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Category Value",
+          "cardinality": "LIST"
+        },
+        "macro_role_association": {
+          "indexed": true,
+          "attribute_type": "macro_role_association",
+          "label": "Macro Role Association",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Macro Role"
+    },
+    "person": {
+      "entity_types": {
+        "person_entity": {
+          "description": "The entity type for person records.",
+          "label": "Person entity"
+        }
+      },
+      "description": "The record type for person records.",
+      "attributes": {
+        "client_status_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Client Status Type",
+          "cardinality": "LIST"
+        },
+        "birth_certificate": {
+          "indexed": true,
+          "attribute_type": "identification",
+          "label": "Birth Certificate",
+          "cardinality": "LIST"
+        },
+        "client_potential_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Client Potential Value",
+          "cardinality": "LIST"
+        },
+        "business_address": {
+          "indexed": true,
+          "attribute_type": "address",
+          "label": "Business Address",
+          "cardinality": "LIST"
+        },
+        "birth_date": {
+          "indexed": true,
+          "matching_type": "DATE",
+          "description": "The birth date associated with this person record.",
+          "attribute_type": "string",
+          "label": "Birth date",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "master_card": {
+          "indexed": true,
+          "attribute_type": "charge_card",
+          "label": "MasterCard",
+          "cardinality": "LIST"
+        },
+        "since_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Since Date",
+          "cardinality": "LIST"
+        },
+        "health_card": {
+          "indexed": true,
+          "attribute_type": "identification",
+          "label": "Health Card",
+          "cardinality": "LIST"
+        },
+        "contact_method_id_p_k": {
+          "indexed": true,
+          "description": "",
+          "attribute_type": "string",
+          "label": "ContactMethodIdPK",
+          "cardinality": "LIST"
+        },
+        "twitter": {
+          "indexed": true,
+          "description": "Indicates that this social media type is Twitter.",
+          "attribute_type": "social_media",
+          "label": "Twitter",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "home_telephone": {
+          "indexed": true,
+          "description": "Indicates that this phone number is for a home telephone.",
+          "attribute_type": "telephone",
+          "label": "Home telephone",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "passport": {
+          "indexed": true,
+          "matching_type": "NATIONALIDENTIFIER",
+          "description": "Indicates that this identifier is a passport.",
+          "attribute_type": "identification",
+          "label": "Passport",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "other_address": {
+          "indexed": true,
+          "attribute_type": "address",
+          "label": "Other Address",
+          "cardinality": "LIST"
+        },
+        "pager": {
+          "indexed": true,
+          "attribute_type": "telephone",
+          "label": "Pager",
+          "cardinality": "LIST"
+        },
+        "payroll_deduction": {
+          "indexed": true,
+          "attribute_type": "payroll_deduction",
+          "label": "Payroll Deduction",
+          "cardinality": "LIST"
+        },
+        "client_importance_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Client Importance Value",
+          "cardinality": "LIST"
+        },
+        "social_insurance_number": {
+          "indexed": true,
+          "matching_type": "NATIONALIDENTIFIER",
+          "description": "Indicates that this identifier is a social insurance number.",
+          "attribute_type": "identification",
+          "label": "Social insurance number",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "contact_method_type": {
+          "indexed": true,
+          "description": "",
+          "attribute_type": "string",
+          "label": "ContactMethodType",
+          "cardinality": "LIST"
+        },
+        "diners_club": {
+          "indexed": true,
+          "attribute_type": "charge_card",
+          "label": "Diner’s Club",
+          "cardinality": "LIST"
+        },
+        "tax_registration": {
+          "indexed": true,
+          "attribute_type": "identification",
+          "label": "Tax Registration",
+          "cardinality": "LIST"
+        },
+        "saving_account": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Savings Account",
+          "cardinality": "LIST"
+        },
+        "drivers_licence": {
+          "indexed": true,
+          "matching_type": "NATIONALIDENTIFIER",
+          "description": "Indicates that this identifier is a driver's license.",
+          "attribute_type": "identification",
+          "label": "Driver's licence",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "number_of_children": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Number of Children",
+          "cardinality": "LIST"
+        },
+        "fax": {
+          "indexed": true,
+          "attribute_type": "telephone",
+          "label": "Fax",
+          "cardinality": "LIST"
+        },
+        "business_name": {
+          "indexed": true,
+          "attribute_type": "person_name",
+          "label": "Business Name",
+          "cardinality": "LIST"
+        },
+        "party_value": {
+          "indexed": true,
+          "attribute_type": "misc_value",
+          "label": "Party Value",
+          "cardinality": "LIST"
+        },
+        "marital_status_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Marital Status Value",
+          "cardinality": "LIST"
+        },
+        "income_source": {
+          "indexed": true,
+          "attribute_type": "income_source",
+          "label": "Income Source",
+          "cardinality": "LIST"
+        },
+        "client_status_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Client Status Value",
+          "cardinality": "LIST"
+        },
+        "left_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Left Date",
+          "cardinality": "LIST"
+        },
+        "access_token_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Access Token Value",
+          "cardinality": "LIST"
+        },
+        "consent": {
+          "indexed": true,
+          "attribute_type": "consent",
+          "label": "Consent",
+          "cardinality": "LIST"
+        },
+        "display_name": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Display Name",
+          "cardinality": "LIST"
+        },
+        "age_verified_with_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Age Verified with Type",
+          "cardinality": "LIST"
+        },
+        "reference_number": {
+          "indexed": true,
+          "description": "",
+          "attribute_type": "string",
+          "label": "ReferenceNumber",
+          "cardinality": "LIST"
+        },
+        "highest_education_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Highest Education Type",
+          "cardinality": "LIST"
+        },
+        "mailing_address": {
+          "indexed": true,
+          "description": "Indicates that this address is a mailing address.",
+          "attribute_type": "address",
+          "label": "Mailing Address",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "deceased_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Deceased Date",
+          "cardinality": "LIST"
+        },
+        "business_telephone": {
+          "indexed": true,
+          "attribute_type": "telephone",
+          "label": "Business Telephone",
+          "cardinality": "LIST"
+        },
+        "investment_account": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Investment Account",
+          "cardinality": "LIST"
+        },
+        "line_of_business": {
+          "indexed": true,
+          "attribute_type": "line_of_business",
+          "label": "Line of Business",
+          "cardinality": "LIST"
+        },
+        "nick_name": {
+          "indexed": true,
+          "attribute_type": "person_name",
+          "label": "Nickname",
+          "cardinality": "LIST"
+        },
+        "age_verified_with_value": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Age Verified with Value",
+          "cardinality": "LIST"
+        },
+        "highest_education_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Highest Education Value",
+          "cardinality": "LIST"
+        },
+        "citizenship_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Citizenship Type",
+          "cardinality": "LIST"
+        },
+        "business_email": {
+          "indexed": true,
+          "attribute_type": "email",
+          "label": "Business Email",
+          "cardinality": "LIST"
+        },
+        "client_importance_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Client Importance Type",
+          "cardinality": "LIST"
+        },
+        "admin_key": {
+          "indexed": false,
+          "attribute_type": "admin_key",
+          "label": "Admin System Key",
+          "cardinality": "LIST"
+        },
+        "disabled_start_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Disabled Start Date",
+          "cardinality": "LIST"
+        },
+        "preferred_name": {
+          "indexed": true,
+          "attribute_type": "person_name",
+          "label": "Preferred Name",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        },
+        "tax_identification": {
+          "indexed": true,
+          "attribute_type": "identification",
+          "label": "Tax ID",
+          "cardinality": "LIST"
+        },
+        "gender": {
+          "indexed": true,
+          "matching_type": "GENDER",
+          "description": "The gender of the the person associated with this record.",
+          "attribute_type": "string",
+          "label": "Gender",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "previous_name": {
+          "indexed": true,
+          "description": "Indicates that this name is a previous name.",
+          "attribute_type": "person_name",
+          "label": "Previous name",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "citizenship_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Citizenship Value",
+          "cardinality": "LIST"
+        },
+        "marital_status_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Marital Status Type",
+          "cardinality": "LIST"
+        },
+        "linkedin": {
+          "indexed": true,
+          "attribute_type": "social_media",
+          "label": "LinkedIn",
+          "cardinality": "LIST"
+        },
+        "party_active_indicator": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Is Active?",
+          "cardinality": "LIST"
+        },
+        "abilitec_link": {
+          "indexed": true,
+          "attribute_type": "identification",
+          "label": "Abilitec Link",
+          "cardinality": "LIST"
+        },
+        "birth_place_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Birth Place Type",
+          "cardinality": "LIST"
+        },
+        "seasonal_residence": {
+          "indexed": true,
+          "attribute_type": "address",
+          "label": "Seasonal Residence",
+          "cardinality": "LIST"
+        },
+        "alert": {
+          "indexed": true,
+          "attribute_type": "alert",
+          "label": "Alert",
+          "cardinality": "LIST"
+        },
+        "mobile_telephone": {
+          "indexed": true,
+          "description": "Indicates that this phone number is for a mobile telephone.",
+          "attribute_type": "telephone",
+          "label": "Mobile telephone",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "birth_place_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Birth Place Value",
+          "cardinality": "LIST"
+        },
+        "social_security_number": {
+          "indexed": true,
+          "attribute_type": "identification",
+          "label": "Social Security Number",
+          "cardinality": "LIST"
+        },
+        "legal_name": {
+          "indexed": true,
+          "description": "Indicates that this name is a legal name.",
+          "attribute_type": "person_name",
+          "label": "Legal name",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "preferred_language": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Preferred Language",
+          "cardinality": "LIST"
+        },
+        "also_known_as": {
+          "indexed": true,
+          "attribute_type": "person_name",
+          "label": "Also Known As",
+          "cardinality": "LIST"
+        },
+        "primary_residence": {
+          "indexed": true,
+          "description": "Indicates that this address is a primary residence.",
+          "attribute_type": "address",
+          "label": "Primary residence",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "maiden_name": {
+          "indexed": true,
+          "attribute_type": "person_name",
+          "label": "Maiden Name",
+          "cardinality": "LIST"
+        },
+        "facebook": {
+          "indexed": true,
+          "attribute_type": "social_media",
+          "label": "Facebook",
+          "cardinality": "LIST"
+        },
+        "solicitation_indicator": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Solicitation Allowed?",
+          "cardinality": "LIST"
+        },
+        "credit_account": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Credit Account",
+          "cardinality": "LIST"
+        },
+        "alias_name": {
+          "indexed": true,
+          "attribute_type": "person_name",
+          "label": "Alias Name",
+          "cardinality": "LIST"
+        },
+        "disabled_end_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Disabled End Date",
+          "cardinality": "LIST"
+        },
+        "amex": {
+          "indexed": true,
+          "attribute_type": "charge_card",
+          "label": "American Express",
+          "cardinality": "LIST"
+        },
+        "guaranteed_investment_certificate": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Guaranteed Investment Certificate",
+          "cardinality": "LIST"
+        },
+        "visa": {
+          "indexed": true,
+          "attribute_type": "charge_card",
+          "label": "Visa",
+          "cardinality": "LIST"
+        },
+        "checking_account": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Checking Account",
+          "cardinality": "LIST"
+        },
+        "client_potential_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Client Potential Type",
+          "cardinality": "LIST"
+        },
+        "contact_method_value": {
+          "indexed": true,
+          "description": "",
+          "attribute_type": "string",
+          "label": "ContactMethodValue",
+          "cardinality": "LIST"
+        },
+        "mothers_maiden_name": {
+          "indexed": true,
+          "attribute_type": "identification",
+          "label": "Mother’s Maiden Name",
+          "cardinality": "LIST"
+        },
+        "personal_email": {
+          "indexed": true,
+          "description": "Indicates that this email address is a personal email address.",
+          "attribute_type": "email",
+          "label": "Personal email",
+          "classification": "",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Person"
+    },
+    "contract": {
+      "description": "Contract",
+      "attributes": {
+        "contract_lang_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Contract Language Type"
+        },
+        "service_prov_id": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Service Provider ID"
+        },
+        "admin_native_key": {
+          "indexed": true,
+          "attribute_type": "admin_native_key",
+          "label": "Admin Native Key",
+          "cardinality": "LIST"
+        },
+        "premium_amount": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Premium Amount"
+        },
+        "contract_line_of_business": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Line of Business"
+        },
+        "premium_amount_currency_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Premium Amount Currency Type"
+        },
+        "premium_amount_currency_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Premium Amount Currency Value"
+        },
+        "issue_location": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Issue Location"
+        },
+        "frequency_mode_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Frequency Mode Type"
+        },
+        "current_cash_value_amount_currency_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Current Cash Value Amount Currency Type"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "alert": {
+          "indexed": true,
+          "attribute_type": "alert",
+          "label": "Alert",
+          "cardinality": "LIST"
+        },
+        "billing_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Billing Value"
+        },
+        "service_org_name": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Service Organization Name"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "billing_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Billing Type"
+        },
+        "contract_value": {
+          "indexed": true,
+          "attribute_type": "misc_value",
+          "label": "Contract Value",
+          "cardinality": "LIST"
+        },
+        "bus_org_unit_id": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Business Organization Unit ID"
+        },
+        "next_billing_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Next Billing Date"
+        },
+        "current_cash_value_amount": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Current Cash Value Amount"
+        },
+        "currency_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Currency Value"
+        },
+        "frequency_mode_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Frequency Mode Value"
+        },
+        "current_cash_value_amount_currency_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Current Cash Value Amount Currency Value"
+        },
+        "brand_name": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Brand Name"
+        },
+        "access_token_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Access Token Value"
+        },
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "contract_lang_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Contract Language Value"
+        },
+        "currency_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Currency Type"
+        },
+        "replaced_by_contract": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Replaced by Contract"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Contract"
+    },
+    "organization": {
+      "entity_types": {
+        "organization_entity": {
+          "description": "The entity type for org records.",
+          "label": "Organization Entity"
+        }
+      },
+      "description": "Organization",
+      "attributes": {
+        "client_status_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Client Status Type",
+          "cardinality": "LIST"
+        },
+        "client_potential_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Client Potential Value",
+          "cardinality": "LIST"
+        },
+        "business_address": {
+          "indexed": true,
+          "description": "Indicates that this address is a business address.",
+          "attribute_type": "address",
+          "label": "Business address",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "established_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Established Date",
+          "cardinality": "LIST"
+        },
+        "master_card": {
+          "indexed": true,
+          "attribute_type": "charge_card",
+          "label": "MasterCard",
+          "cardinality": "LIST"
+        },
+        "since_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Since Date",
+          "cardinality": "LIST"
+        },
+        "contact_method_id_p_k": {
+          "indexed": true,
+          "description": "",
+          "attribute_type": "string",
+          "label": "ContactMethodIdPK",
+          "cardinality": "LIST"
+        },
+        "twitter": {
+          "indexed": true,
+          "attribute_type": "social_media",
+          "label": "Twitter",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "buyout_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Buyout Value",
+          "cardinality": "LIST"
+        },
+        "payroll_deduction": {
+          "indexed": true,
+          "attribute_type": "payroll_deduction",
+          "label": "Payroll Deduction",
+          "cardinality": "LIST"
+        },
+        "client_importance_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Client Importance Value",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "contact_method_type": {
+          "indexed": true,
+          "description": "",
+          "attribute_type": "string",
+          "label": "ContactMethodType",
+          "cardinality": "LIST"
+        },
+        "diners_club": {
+          "indexed": true,
+          "attribute_type": "charge_card",
+          "label": "Diner’s Club",
+          "cardinality": "LIST"
+        },
+        "saving_account": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Savings Account",
+          "cardinality": "LIST"
+        },
+        "fax": {
+          "indexed": true,
+          "attribute_type": "telephone",
+          "label": "Fax",
+          "cardinality": "LIST"
+        },
+        "buyout_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Buyout Type",
+          "cardinality": "LIST"
+        },
+        "party_value": {
+          "indexed": true,
+          "attribute_type": "misc_value",
+          "label": "Party Value",
+          "cardinality": "LIST"
+        },
+        "income_source": {
+          "indexed": true,
+          "attribute_type": "income_source",
+          "label": "Income Source",
+          "cardinality": "LIST"
+        },
+        "profitable": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Profitable",
+          "cardinality": "LIST"
+        },
+        "client_status_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Client Status Value",
+          "cardinality": "LIST"
+        },
+        "left_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Left Date",
+          "cardinality": "LIST"
+        },
+        "access_token_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Access Token Value",
+          "cardinality": "LIST"
+        },
+        "display_name": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Display Name",
+          "cardinality": "LIST"
+        },
+        "reference_number": {
+          "indexed": true,
+          "description": "",
+          "attribute_type": "string",
+          "label": "ReferenceNumber",
+          "cardinality": "LIST"
+        },
+        "mailing_address": {
+          "indexed": true,
+          "description": "Indicates that this address is a mailing address.",
+          "attribute_type": "address",
+          "label": "Mailing address",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "business_telephone": {
+          "indexed": true,
+          "description": "Indicates that this phone number is for a business telephone.",
+          "attribute_type": "telephone",
+          "label": "Business Telephone",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "investment_account": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Investment Account",
+          "cardinality": "LIST"
+        },
+        "line_of_business": {
+          "indexed": true,
+          "attribute_type": "line_of_business",
+          "label": "Line of Business",
+          "cardinality": "LIST"
+        },
+        "business_email": {
+          "indexed": true,
+          "description": "Indicates that this email address is a business email.",
+          "attribute_type": "email",
+          "label": "Business email",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "duns": {
+          "indexed": true,
+          "matching_type": "NATIONALIDENTIFIER",
+          "description": "Indicates that this identifier is a D-U-N-S Number.",
+          "attribute_type": "identification",
+          "label": "DUNS",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "client_importance_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Client Importance Type",
+          "cardinality": "LIST"
+        },
+        "admin_key": {
+          "indexed": false,
+          "attribute_type": "admin_key",
+          "label": "Admin System Key",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        },
+        "business_tax_identification": {
+          "indexed": true,
+          "matching_type": "NATIONALIDENTIFIER",
+          "description": "Indicates that this identifier is a business tax identification number.",
+          "attribute_type": "identification",
+          "label": "Business tax identification",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "industry_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Industry Type",
+          "cardinality": "LIST"
+        },
+        "linkedin": {
+          "indexed": true,
+          "attribute_type": "social_media",
+          "label": "LinkedIn",
+          "cardinality": "LIST"
+        },
+        "party_active_indicator": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Is Active?",
+          "cardinality": "LIST"
+        },
+        "business_registration_number": {
+          "indexed": true,
+          "attribute_type": "identification",
+          "label": "Business Registration Number",
+          "cardinality": "LIST"
+        },
+        "abilitec_link": {
+          "indexed": true,
+          "attribute_type": "identification",
+          "label": "Abilitec Link",
+          "cardinality": "LIST"
+        },
+        "alert": {
+          "indexed": true,
+          "attribute_type": "alert",
+          "label": "Alert",
+          "cardinality": "LIST"
+        },
+        "mobile_telephone": {
+          "indexed": true,
+          "attribute_type": "telephone",
+          "label": "Mobile Telephone",
+          "cardinality": "LIST"
+        },
+        "doing_business_as": {
+          "indexed": true,
+          "description": "Indicates that this name is a Doing Business As name.",
+          "attribute_type": "organization_name",
+          "label": "Doing business as",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "legal_name": {
+          "indexed": true,
+          "attribute_type": "organization_name",
+          "label": "Legal Name",
+          "cardinality": "LIST"
+        },
+        "preferred_language": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Preferred Language",
+          "cardinality": "LIST"
+        },
+        "industry_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Industry Value",
+          "cardinality": "LIST"
+        },
+        "organization_type_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Organization Type Value",
+          "cardinality": "LIST"
+        },
+        "facebook": {
+          "indexed": true,
+          "attribute_type": "social_media",
+          "label": "Facebook",
+          "cardinality": "LIST"
+        },
+        "solicitation_indicator": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Solicitation Allowed?",
+          "cardinality": "LIST"
+        },
+        "credit_account": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Credit Account",
+          "cardinality": "LIST"
+        },
+        "amex": {
+          "indexed": true,
+          "attribute_type": "charge_card",
+          "label": "American Express",
+          "cardinality": "LIST"
+        },
+        "abbreviated_name": {
+          "indexed": true,
+          "description": "Indicates that this name is an abbreviated name.",
+          "attribute_type": "organization_name",
+          "label": "Abbreviated name",
+          "classification": "",
+          "cardinality": "LIST"
+        },
+        "guaranteed_investment_certificate": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Guaranteed Investment Certificate",
+          "cardinality": "LIST"
+        },
+        "visa": {
+          "indexed": true,
+          "attribute_type": "charge_card",
+          "label": "Visa",
+          "cardinality": "LIST"
+        },
+        "checking_account": {
+          "indexed": true,
+          "attribute_type": "bank_account",
+          "label": "Checking Account",
+          "cardinality": "LIST"
+        },
+        "client_potential_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Client Potential Type",
+          "cardinality": "LIST"
+        },
+        "organization_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Organization Type",
+          "cardinality": "LIST"
+        },
+        "contact_method_value": {
+          "indexed": true,
+          "description": "",
+          "attribute_type": "string",
+          "label": "ContactMethodValue",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Organization"
+    },
+    "preference": {
+      "description": "Preference",
+      "attributes": {
+        "reference_entity": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Reference Entity",
+          "cardinality": "LIST"
+        },
+        "reference_id": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Reference ID",
+          "cardinality": "LIST"
+        },
+        "action_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Action Type",
+          "cardinality": "LIST"
+        },
+        "category_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Category Type",
+          "cardinality": "LIST"
+        },
+        "category_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Category Value",
+          "cardinality": "LIST"
+        },
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "usage_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Usage Type",
+          "cardinality": "LIST"
+        },
+        "reason_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Reason Type",
+          "cardinality": "LIST"
+        },
+        "reason_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Reason Value",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "action_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Action Value",
+          "cardinality": "LIST"
+        },
+        "action_detail": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Action Detail",
+          "cardinality": "LIST"
+        },
+        "usage_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Usage Value",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Preference"
+    },
+    "process_purpose": {
+      "description": "Processing Purpose",
+      "attributes": {
+        "erase": {
+          "indexed": true,
+          "attribute_type": "processing_activity",
+          "label": "Erase",
+          "cardinality": "LIST"
+        },
+        "purpose_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Purpose Type",
+          "cardinality": "LIST"
+        },
+        "description": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Description",
+          "cardinality": "LIST"
+        },
+        "store": {
+          "indexed": true,
+          "attribute_type": "processing_activity",
+          "label": "Store",
+          "cardinality": "LIST"
+        },
+        "version": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Version",
+          "cardinality": "LIST"
+        },
+        "url": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "URL",
+          "cardinality": "LIST"
+        },
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "anonymization": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Anonymization",
+          "cardinality": "LIST"
+        },
+        "processing_purpose_tenant_association": {
+          "indexed": true,
+          "attribute_type": "processing_purpose_tenant_association",
+          "label": "Processing Purpose Tenant Association",
+          "cardinality": "LIST"
+        },
+        "proc_purp_parent_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Processing Purpose Parent Type",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "regulation": {
+          "indexed": true,
+          "attribute_type": "regulation",
+          "label": "Regulation",
+          "cardinality": "LIST"
+        },
+        "default_time": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Default Time",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "purpose_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Purpose Value",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Processing Purpose"
+    },
+    "interaction": {
+      "description": "Interaction",
+      "attributes": {
+        "status_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Status Type",
+          "cardinality": "LIST"
+        },
+        "method_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Method Type",
+          "cardinality": "LIST"
+        },
+        "status_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Status Value",
+          "cardinality": "LIST"
+        },
+        "interaction_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Interaction Type",
+          "cardinality": "LIST"
+        },
+        "category_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Category Type",
+          "cardinality": "LIST"
+        },
+        "description": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Description",
+          "cardinality": "LIST"
+        },
+        "interaction_reference": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Interaction Reference",
+          "cardinality": "LIST"
+        },
+        "category_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Category Value",
+          "cardinality": "LIST"
+        },
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "interaction_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Interaction Value",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "invalid": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Invalid?",
+          "cardinality": "LIST"
+        },
+        "method_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Method Value",
+          "cardinality": "LIST"
+        },
+        "summary_description": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Summary Description",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Interaction"
+    },
+    "contract_component": {
+      "description": "Contract Component",
+      "attributes": {
+        "viatical_indicator": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Viatical?",
+          "cardinality": "LIST"
+        },
+        "admin_native_key": {
+          "indexed": true,
+          "attribute_type": "admin_native_key",
+          "label": "Admin Native Key",
+          "cardinality": "LIST"
+        },
+        "current_cash_value_amount": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Current Cash Value Amount",
+          "cardinality": "LIST"
+        },
+        "contract_component_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Contract Component Value",
+          "cardinality": "LIST"
+        },
+        "base_indicator": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Base?",
+          "cardinality": "LIST"
+        },
+        "contract_id": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Contract ID",
+          "cardinality": "LIST"
+        },
+        "premium_amount": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Premium Amount",
+          "cardinality": "LIST"
+        },
+        "premium_amount_currency_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Premium Amount Currency Type",
+          "cardinality": "LIST"
+        },
+        "premium_amount_currency_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Premium Amount Currency Value",
+          "cardinality": "LIST"
+        },
+        "current_cash_value_amount_currency_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Current Cash Value Amount Currency Value",
+          "cardinality": "LIST"
+        },
+        "contract_component_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Contract Component Type",
+          "cardinality": "LIST"
+        },
+        "contract_component_val": {
+          "indexed": true,
+          "attribute_type": "contract_component_val",
+          "label": "Contract Component Value Data",
+          "cardinality": "LIST"
+        },
+        "holding_id": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Holding ID",
+          "cardinality": "LIST"
+        },
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "contract_status_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Contract Status Type",
+          "cardinality": "LIST"
+        },
+        "current_cash_value_amount_currency_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Current Cash Value Amount Currency Type",
+          "cardinality": "LIST"
+        },
+        "product_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Product Type",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "contract_component_service_arrangement_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Contract Component Service Arrangement Value",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "contract_status_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Contract Status Value",
+          "cardinality": "LIST"
+        },
+        "product_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Product Value",
+          "cardinality": "LIST"
+        },
+        "contract_component_service_arrangement_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Contract Component Service Arrangement Type",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Contract Component"
+    },
+    "contract_party_role": {
+      "description": "Contract Party Role",
+      "attributes": {
+        "role_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Role Type",
+          "cardinality": "LIST"
+        },
+        "arrangement_description": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Arrangement Description",
+          "cardinality": "LIST"
+        },
+        "contract_party_role_identifier": {
+          "indexed": true,
+          "attribute_type": "contract_party_role_identifier",
+          "label": "Contract Party Role Identifier",
+          "cardinality": "LIST"
+        },
+        "irrevokable_indicator": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Irrevokable Indicator",
+          "cardinality": "LIST"
+        },
+        "arrangement_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Arrangement Type",
+          "cardinality": "LIST"
+        },
+        "arrangement_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Arrangement Value",
+          "cardinality": "LIST"
+        },
+        "contract_component_id": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Contract Component ID",
+          "cardinality": "LIST"
+        },
+        "record_start": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record Start Date"
+        },
+        "share_distribution_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Share Distribution Type",
+          "cardinality": "LIST"
+        },
+        "registered_name": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Registered Name",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "role_end_reason_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Role End Reason Type",
+          "cardinality": "LIST"
+        },
+        "role_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Role Value",
+          "cardinality": "LIST"
+        },
+        "distribution_percentage": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Distribution Percentage",
+          "cardinality": "LIST"
+        },
+        "alert": {
+          "indexed": true,
+          "attribute_type": "alert",
+          "label": "Alert",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "party_id": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Party ID",
+          "cardinality": "LIST"
+        },
+        "role_end_reason_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Role End Reason Value",
+          "cardinality": "LIST"
+        },
+        "share_distribution_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Share Distribution Value",
+          "cardinality": "LIST"
+        },
+        "contract_party_role_situation": {
+          "indexed": true,
+          "attribute_type": "contract_party_role_situation",
+          "label": "Contract Party Role Situation",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Record End Date"
+        }
+      },
+      "label": "Contract Party Role"
+    },
+    "contract_role_location": {
+      "description": "Contract Role Location",
+      "attributes": {
+        "contract_role_location_purpose": {
+          "indexed": true,
+          "attribute_type": "contract_role_location_purpose",
+          "label": "Contract Role Location Purpose",
+          "cardinality": "LIST"
+        },
+        "record_start": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Start Date",
+          "cardinality": "LIST"
+        },
+        "contract_role_id": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Contract Party Role ID",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "undelivered_reason_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Undelivered Reason Value",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "undelivered_reason_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Undelivered Reason Type",
+          "cardinality": "LIST"
+        },
+        "record_end": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record End Date",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "ContractRoleLocation"
+    },
+    "billing_summary": {
+      "description": "Billing Summary",
+      "attributes": {
+        "payment_method_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Payment Method Type",
+          "cardinality": "LIST"
+        },
+        "account_balance_currency_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Account Balance Currency Type",
+          "cardinality": "LIST"
+        },
+        "account_balance": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Account Balance",
+          "cardinality": "LIST"
+        },
+        "contract_id": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Contract Id",
+          "cardinality": "LIST"
+        },
+        "payment_method_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Payment Method Value",
+          "cardinality": "LIST"
+        },
+        "last_payment_method_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Last Payment Method Value",
+          "cardinality": "LIST"
+        },
+        "billing_status_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Billing Status Value",
+          "cardinality": "LIST"
+        },
+        "paid_to_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Paid To Date",
+          "cardinality": "LIST"
+        },
+        "frequency_mode_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Frequency Mode Type",
+          "cardinality": "LIST"
+        },
+        "record_last_updated_user": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Record Last Updated User",
+          "cardinality": "LIST"
+        },
+        "payments_remaining": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Payments Remaining",
+          "cardinality": "LIST"
+        },
+        "minimum_payment_currency_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Minimum Payment Currency Type",
+          "cardinality": "LIST"
+        },
+        "modification_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Modification Date",
+          "cardinality": "LIST"
+        },
+        "minimum_payment": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Minimum Payment",
+          "cardinality": "LIST"
+        },
+        "effective_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Effective Date",
+          "cardinality": "LIST"
+        },
+        "invoice_id": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Invoice Id",
+          "cardinality": "LIST"
+        },
+        "maximum_payment": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Maximum Payment",
+          "cardinality": "LIST"
+        },
+        "maximum_payment_currency_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Maximum Payment Currency Type",
+          "cardinality": "LIST"
+        },
+        "last_payment_amount_currency_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Last Payment Amount Currency Type",
+          "cardinality": "LIST"
+        },
+        "billing_summary_misc_value": {
+          "indexed": true,
+          "attribute_type": "misc_value",
+          "label": "Billing Summary Misc Value",
+          "cardinality": "LIST"
+        },
+        "payment_source_id": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Payment Source Id",
+          "cardinality": "LIST"
+        },
+        "last_payment_amount_currency_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Last Payment Amount Currency Value",
+          "cardinality": "LIST"
+        },
+        "bill_to_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Bill To Date",
+          "cardinality": "LIST"
+        },
+        "account_balance_currency_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Account Balance Currency Value",
+          "cardinality": "LIST"
+        },
+        "due_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Due Date",
+          "cardinality": "LIST"
+        },
+        "last_payment_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "LastPaymentDate",
+          "cardinality": "LIST"
+        },
+        "minimum_payment_currency_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Minimum Payment Currency Value",
+          "cardinality": "LIST"
+        },
+        "frequency_mode_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Frequency Mode Value",
+          "cardinality": "LIST"
+        },
+        "withdrawal_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Withdrawal Date",
+          "cardinality": "LIST"
+        },
+        "last_payment_amount": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Last Payment Amount",
+          "cardinality": "LIST"
+        },
+        "contract_component_id": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Contract Component Id",
+          "cardinality": "LIST"
+        },
+        "billing_status_type": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Billing Status Type",
+          "cardinality": "LIST"
+        },
+        "bill_from_date": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Bill From Date",
+          "cardinality": "LIST"
+        },
+        "account_id": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Account Id",
+          "cardinality": "LIST"
+        },
+        "maximum_payment_currency_value": {
+          "indexed": true,
+          "attribute_type": "string",
+          "label": "Maximum Payment Currency Value",
+          "cardinality": "LIST"
+        },
+        "last_payment_method_type": {
+          "indexed": false,
+          "attribute_type": "string",
+          "label": "Last Payment Method Type",
+          "cardinality": "LIST"
+        }
+      },
+      "label": "Billing Summary"
+    }
+  }
+}
